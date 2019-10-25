@@ -1,0 +1,95 @@
+body
+	font-family 'Gill Sans', 'Gill Sans MT', sans-serif
+	//background #fff  // This is the visitor's decision!
+	max-width 46em
+	margin 0 auto
+	text-align justify
+	padding 0 0.6em 3em
+	line-height 1.28
+	p
+		padding-left 0.3em
+		padding-right 0.3em
+
+img
+	display block
+	margin 1.4em auto
+	position relative
+	max-width 90%
+	text-align center
+	color #f63
+
+h1, h2
+	line-height 1.1
+
+.strike
+	text-decoration line-through
+
+.section
+	h1
+		margin 1.8em 0 0.4em
+		font-size 1.6em
+	h2
+		font-size 1em
+		margin-bottom 0.4em
+
+ul
+	margin-top 0
+li
+	margin-top 0.4em
+
+tt.literal, span.shell, div.shell, pre.code
+	font-family monospace
+	font-size 1.08em
+	font-weight 520
+	background #222
+	color #fca
+	padding 0.15em 0.4em
+span.sysname
+	font-family monospace
+	font-size 1.08em
+	font-weight 600
+	padding 0.2em
+div.shell, pre.code
+	padding 0.8em
+	white-space pre
+	clear both
+	max-width 80em
+	overflow auto
+
+.sidebar
+	border 1px solid #000
+	padding 1.1em
+	padding-left 4em
+	text-indent -2.9em
+	margin 1.7em 0.8em
+
+	p
+		text-indent 0
+	p.last
+		margin-bottom 0
+	.sidebar-title
+		font-weight bold
+		display inline
+		& + p
+			display inline
+
+table.footnote
+	margin-top: 5em
+	&:before
+		display block
+		position absolute
+		margin-left -5em
+		border-top: 1px solid #000
+		width: 30em
+		content: ' '
+	td
+		padding-top 0.6em
+
+span.comment
+	color: #888
+span.string
+	color: #dda
+	font-weight: 400
+span.keyword
+	color: #ffd
+	font-weight: 600

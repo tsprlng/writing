@@ -1,0 +1,6 @@
+# Random source files that I've made images from and stuff like that, and don't really want to track
+*/src
+
+# I hate these syntaxes so everything in them is probably generated from a macro language
+*.html
+*.css
